@@ -1,0 +1,399 @@
+/*шрифт   @import url('https://use.typekit.net/ggc6cui.css');*/
+@import url('https://use.typekit.net/ggc6cui.css');
+body {
+	margin: 0 auto;
+font-family:"proxima-nova";
+}
+
+.header {
+	display: flex;
+position: relative;
+}
+
+
+
+
+.header__left {
+	width: 3.8%;
+	    height: 670px;
+	background: #82B284;
+border: 1px solid #82B284;
+box-sizing: border-box;
+border-radius: 2px;
+position: fixed;
+
+}
+.svg__left {
+width: 21px;
+    margin: 0 auto;
+}
+.svg__botton {
+      width: 100%;
+    margin: 0 auto;
+    height: 30%;
+    bottom: 0%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.svg__botton1 {
+
+ border-top: 1px solid #A4C7A5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+ 
+}
+.header__left svg {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.header__right {
+    width: 16%;
+    height: 670px;
+    margin-left: 3.8%;
+      position: fixed;
+
+
+}
+.background {
+
+width: 2%;
+height: 670px;
+left: 272px;
+top: 0px;
+
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.072) 0%, rgba(255, 255, 255, 0) 100%);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.agent {
+	
+	font-size: 16px;
+	      text-align: center;
+    width: 100%;
+}
+.menenger {
+    text-align: center;
+    font-size: 12px;
+    margin: 5px auto;
+    width: 100%;
+}
+.organisation {
+    height: 26px;
+display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 0px solid red;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+}
+.organisation.active {
+	border-left: 4px solid #82B284 ;
+}
+.organisation:hover {
+  background: #EEEEEE;
+}
+
+.organisation__right {
+	font-size: 14px;
+	color: #82B284;
+
+}
+
+.organisation svg {
+	    margin: 0px 7px;
+}
+
+.legal__entity {
+	width: 75%;
+      z-index: 999;
+  margin-left: 20.5%;
+-webkit-box-shadow: -4px 0px 9px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: -4px 0px 9px 0px rgba(0, 0, 0, 0.2);
+box-shadow: -4px 0px 9px 0px rgba(0, 0, 0, 0.2);
+
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+}
+.legal__entity2 {
+	width: 100%;
+height: 72px;
+margin: 0px auto;
+display: flex;
+align-items: center;
+}
+.legal__entity svg {
+	 margin-left: 26px;   
+    
+}
+.legal__entity__content {
+	margin-left: 16px;
+	width: 26%;
+	color: #82B284;
+}
+.svg__basket {
+	    
+    width: 63%;
+    text-align: end;
+}
+
+
+
+
+
+
+
+.container {
+  width: 95%;
+      padding-left: 28px;
+  
+}
+.rip {
+width: 360px;
+  height: 50px;
+    display: flex;
+    align-items: center;
+}
+.rip__rip {
+	font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #222222;
+}
+
+.rip svg {
+    margin: 9px;
+}
+.rip a {
+	height: 36px;
+}
+.informashion {
+width: 360px;
+  height: 50px;
+    display: flex;
+    align-items: center;
+    color: #3B3B3B;
+    margin-top: 28px;
+}
+.informashion p {
+font-size: 18px;
+line-height: 24px;
+font-weight: 300;
+}
+.informashion svg {
+    margin: 9px;
+}
+.informashion__OOO {
+display: flex;
+    width: 481px;
+    justify-content: space-between;
+}
+.informashion__OOO__agent {
+	    width: 324px;
+
+}
+.informashion__OOO__agent p {
+	   color: #3B3B3B;
+	    
+}
+.informashion__OOO__firma p {
+	font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #808080;
+}
+
+.informashion__OOO11 {
+	
+	display: flex;
+    width: 481px;
+    justify-content: space-between;
+}
+.informashion__OOO__agent11 {
+	width: 324px;
+}
+.informashion__OOO__agent11 p {
+	width: 500px;
+	color: #3B3B3B;
+}
+
+.dogovor p {
+	margin: 0;
+	font-size: 12px;
+	margin-left:10px;
+}
+.dogovor {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.pdf__zip {
+	align-items: center;
+    display: flex; 
+    height: 50px;
+    
+}
+.svg__svg {
+margin-bottom: 8px;
+    margin-left: 10px;
+}
+.file {
+	margin: 0;
+	font-size: 12px;
+	margin-left:10px;
+	color: #D7D7D7;
+}
+.footer {
+  width: 100%;
+	height: 142px;
+	display: flex;
+    justify-content: center;  
+    flex-direction: column;
+        align-items: center;
+}
+
+
+
+.footer__text {
+margin: 0 ;
+line-height: 40px;
+font-size: 12px;
+color: #BFBFBF;
+}
+
+.button__file {
+	text-align: center;
+   border: 0px solid red;
+   background: #82B284;
+   padding-right: 11px;
+    padding-left: 13px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   margin: 0;
+   color: #fff;
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+
+}
+.button__glavnyy {
+	width: 185px;
+height: 45px;
+margin-top: 22px;
+
+}
+.button__file__svg {
+	    margin-right: 18px;
+	        margin-left: 0px !important;
+}
+ .nav__nav {
+	text-decoration: none;
+}
+.close {
+  font-size:  30px;
+  font-weight:  bold;
+}
+
+
+
+.modalka {
+	width: 320px;
+height: 198px;
+
+    flex-direction: column;
+background: #FFFFFF;
+box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.15);
+
+
+}
+.modalka__container.active {
+	display: flex;
+
+
+
+
+}
+.modalka__container {
+	display: none;
+	width: 100%;
+	position: absolute;
+	   
+    top: 0;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    background: black;
+    background-color: rgba(0,0,0,0.5);
+
+	
+
+
+}
+.modalka__exit {
+	width: 320px;
+	height: 83px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.modalka__exit1 {
+margin: 0;
+color: #B9B9B9;
+margin-left: 10px;
+}
+.modalka__organisation {
+
+}
+.modalka3 {
+	font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+.modalka2 {
+	font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+width: 71%;
+margin-left: 10px;
+}
+.modalka__exit3 {
+	text-decoration: none;
+	color: #B9B9B9;
+}
+
+.modalka__exit3:hover {
+	color: #82B284;
+}
+
+.modalka__exit14 {
+margin: 0;
+color: #B9B9B9;
+margin-right: 10px;
+}
+
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #E5E5E5;
+	width: 95%;
+
+}
+
+.svg__svg__zip {
+margin-left: 0px !important;
+}

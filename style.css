@@ -1,0 +1,197 @@
+
+
+.container {
+  width: 1080px;
+  
+}
+.rip {
+width: 360px;
+  height: 50px;
+    display: flex;
+    align-items: center;
+}
+.rip__rip {
+	font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #222222;
+}
+
+.rip svg {
+    margin: 9px;
+}
+.rip a {
+	height: 36px;
+}
+.informashion {
+width: 360px;
+  height: 50px;
+    display: flex;
+    align-items: center;
+    color: #3B3B3B;
+}
+.informashion p {
+font-size: 18px;
+line-height: 24px;
+font-weight: 300;
+}
+.informashion svg {
+    margin: 9px;
+}
+.informashion__OOO {
+display: flex;
+    width: 481px;
+    justify-content: space-between;
+}
+.informashion__OOO__agent {
+	    width: 324px;
+
+}
+.informashion__OOO__agent p {
+	   color: #3B3B3B;
+	    
+}
+.informashion__OOO__firma p {
+	font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #808080;
+}
+
+.informashion__OOO11 {
+	
+	display: flex;
+    width: 481px;
+    justify-content: space-between;
+}
+.informashion__OOO__agent11 {
+	width: 324px;
+}
+.informashion__OOO__agent11 p {
+	width: 500px;
+	color: #3B3B3B;
+}
+
+.dogovor p {
+	margin: 0;
+	font-size: 12px;
+	margin-left:10px;
+}
+.dogovor {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.pdf__zip {
+	align-items: center;
+    display: flex; 
+    height: 50px;
+    
+}
+.svg__svg {
+margin-bottom: 8px;
+    margin-left: 10px;
+}
+.file {
+	margin: 0;
+	font-size: 12px;
+	margin-left:10px;
+	color: #D7D7D7;
+}
+.footer {
+	width: 1080px;
+	height: 142px;
+	display: flex;
+    justify-content: center;  
+    flex-direction: column;
+        align-items: center;
+}
+
+
+
+.footer__text {
+margin: 0 ;
+line-height: 40px;
+font-size: 12px;
+color: #BFBFBF;
+}
+
+.button__file {
+	text-align: center;
+   border: 0px solid red;
+   background: #82B284;
+   padding-right: 11px;
+    padding-left: 13px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   margin: 0;
+   color: #fff;
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+
+}
+.button__glavnyy {
+	width: 179px;
+height: 45px;
+margin-top: 22px;
+}
+.button__file svg {
+	    margin-right: 18px;
+}
+ .nav__nav {
+	text-decoration: none;
+}
+
+
+.modalka {
+	width: 320px;
+height: 198px;
+display: flex;
+    flex-direction: column;
+background: #FFFFFF;
+box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.15);
+}
+.modalka__exit {
+	width: 320px;
+	height: 83px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.modalka__exit1 {
+margin: 0;
+color: #B9B9B9;
+margin-left: 10px;
+}
+.modalka__organisation {
+
+}
+.modalka3 {
+	font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+.modalka2 {
+	font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+width: 71%;
+margin-left: 10px;
+}
+.modalka__exit3 {
+	text-decoration: none;
+	color: #B9B9B9;
+}
+
+.modalka__exit3:hover {
+	color: #82B284;
+}
+
+.modalka__exit14 {
+margin: 0;
+color: #B9B9B9;
+margin-right: 10px;
+}
